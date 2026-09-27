@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #0b0726;
+    color:#ffffff;
+    min-height: 100vh;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007bff;
+    padding: 15px 10px;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    max-width: 500px;
+    margin: 0 auto;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    min-height: 100vh;
+    padding: 100px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid #1a163a;
+}
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #00f2fe;
+}
+.hero-container {
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.main-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    color: #00f2fe;
+}
+.profile-pic-container {
+    width: 200px;
+    height: auto;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-pic-container img {
+    width: 200px;
+    height:auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.welcome-text {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2be68e;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.intro-text {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #a164f9;
+}
+.bio {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #e0e0e0;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+footer {
+    text-align: center;
+    padding: 50px 20px;
+    border-top: 1px solid rgba(255,255,255,0.04);
+    color: #5a5c5e;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+
+}
+
+
+
+ 
